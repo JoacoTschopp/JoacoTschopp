@@ -1,4 +1,5 @@
 ## Joaquín Sebastian Tschopp
+<img width="1200" height="444" alt="image" src="https://github.com/user-attachments/assets/22516ab9-9eca-48bb-9eb2-4606d0e7402c" />
 
 <!--
 **JoacoTschopp/JoacoTschopp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
