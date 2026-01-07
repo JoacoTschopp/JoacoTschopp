@@ -1,29 +1,80 @@
-## Joaquín Sebastián Tschopp
+# Joaquín Sebastián Tschopp
 
-Backend & AI Engineer focused on applied Machine Learning and LLM-based systems.
+Backend & AI Engineer focused on applied Machine Learning and production-grade Generative AI systems.
 
-I design and build production-oriented solutions combining backend services, data pipelines, and machine learning models.  
-My experience spans traditional ML (churn, risk, predictive modeling) and modern GenAI systems (RAG, agentic workflows, LLM orchestration), with attention to system design, reliability, and operational constraints.
+I design, build, and operate end-to-end AI-driven solutions combining backend services, data pipelines, machine learning models, and LLM-based workflows (RAG, agentic systems), with a strong emphasis on reliability, evaluation, and real-world operational constraints.
 
-This GitHub profile serves as a technical complement to my CV, showcasing selected projects that reflect real-world applications rather than isolated experiments.
+---
 
-### Selected Projects
+## 🔹 Selected Projects
 
-- **AgentesAI**  
-  LLM-based agentic workflows for document processing and decision support, using LangChain, FastAPI, and local/cloud LLMs.
+### 🧠 Hybrid RAG System with Knowledge Graph (Medical Research)
+**Neo4j · ChromaDB · LangChain · FastAPI · Docker**
 
-- **proyeccion-calidad-agua-ml**  
-  Applied machine learning on real-world time series data, including data preparation, modeling, and evaluation pipelines.
+Production-oriented Retrieval-Augmented Generation system that combines:
+- Knowledge Graph traversal (Neo4j)  
+- Vector similarity search (ChromaDB)  
 
-- **VC-ARN**  
-  Computer Vision experiments focused on neural architectures and applied deep learning techniques.
+to improve grounding and retrieval accuracy in medical research use cases.
 
-### Areas of Focus
-- Applied Machine Learning
-- Backend systems for ML and GenAI
-- Retrieval-Augmented Generation (RAG)
-- LLM orchestration and evaluation
-- Production-oriented AI systems
+**Highlights**
+- Hybrid retrieval (graph + semantic search)
+- Hexagonal architecture for maintainability and testing
+- Async REST API with full documentation
+- Interactive web UI for demo and validation
 
-📄 CV (English): *available upon request or via LinkedIn*  
-🔗 LinkedIn: https://linkedin.com/in/JoaquinTschopp
+🔗 https://github.com/JoacoTschopp/hybrid-rag-medical-kg
+
+---
+
+### 🌊 Water Quality Forecasting with Machine Learning
+**Time Series · Environmental Data · Research-grade ML**
+
+End-to-end applied ML project for forecasting water quality variables in a hydroelectric reservoir.
+Includes curated datasets, feature engineering, model training, evaluation, and a technical manuscript.
+
+🔗 https://github.com/JoacoTschopp/proyeccion-calidad-agua-ml
+
+---
+
+### 🤖 Generative AI Agents
+**LangChain · LangGraph · Vector Databases**
+
+LLM-based agentic workflows for document ingestion, retrieval, and structured information extraction.
+Focus on orchestration patterns, tool usage, and evaluation strategies.
+
+🔗 https://github.com/JoacoTschopp/AgentesAI
+
+---
+
+### 🖼️ Deep Learning Image Classification
+**PyTorch · CNNs · Applied ML**
+
+Image classification project using convolutional neural networks.
+
+🔗 https://github.com/JoacoTschopp/deep-learning-image-classification
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**  
+Python · TypeScript · Julia · R · C# · C++
+
+**Backend & AI**  
+FastAPI · Django · LangChain · LangGraph · scikit-learn · PyTorch
+
+**Data & Storage**  
+PostgreSQL · SQL Server · MongoDB · Neo4j · Milvus · ChromaDB · DuckDB
+
+**Cloud & DevOps**  
+Docker · AWS · GCP · Linux · Git · CI/CD
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/JoacoTschopp  
+- LinkedIn: https://www.linkedin.com/in/joaquintschopp  
+- Email: joaquintschopp@gmail.com
+
