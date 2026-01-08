@@ -37,20 +37,31 @@ Includes curated datasets, feature engineering, model training, evaluation, and 
 
 ---
 
-### 🤖 Generative AI Agents
-**LangChain · LangGraph · Vector Databases**
+### 🤖 Production-Ready Multi-Agent Platform
+**FastAPI · LangGraph · MCP · MongoDB · Docker · Hexagonal Arch**
 
-LLM-based agentic workflows for document ingestion, retrieval, and structured information extraction.
-Focus on orchestration patterns, tool usage, and evaluation strategies.
+Enterprise-grade multi-agent system designed to showcase Clean Architecture (Ports & Adapters) and advanced reliability patterns.
+Orchestrates specialized agents for RAG, PDF analysis, and Neo4j query optimization.
+
+**Highlights**
+- **Model Context Protocol (MCP)** server implementation for seamless tool integration.
+- **Resilience & Security:** Circuit Breaker pattern (OpenAI ↔ Gemini failover) and LLMGuard.
+- **Robust Engineering:** Async I/O, centralized prompt management, and containerized deployment.
 
 🔗 https://github.com/JoacoTschopp/AgentesAI
 
 ---
 
-### 🖼️ Deep Learning Image Classification
-**PyTorch · CNNs · Applied ML**
+### 🖼️ End-to-End Deep Learning Classification System
+**PyTorch · FastAPI · ResNet · D3.js · MLOps**
 
-Image classification project using convolutional neural networks.
+Full-stack computer vision pipeline bridging the gap between model research and production deployment.
+Combines custom CNN architectures with a high-performance inference API and interactive visualization dashboards.
+
+**Highlights**
+- **Advanced Architectures:** Implementation of ResNet & ImprovedCNN with Batch Normalization and Skip Connections.
+- **Training Optimization:** AutoAugment policies, LR schedulers, and comprehensive experiment tracking.
+- **Interactive UI:** Real-time training metrics visualization using D3.js and a FastAPI inference backend.
 
 🔗 https://github.com/JoacoTschopp/deep-learning-image-classification
 
@@ -59,16 +70,19 @@ Image classification project using convolutional neural networks.
 ## 🛠️ Tech Stack
 
 **Languages**  
-Python · TypeScript · Julia · R · C# · C++
+Python · TypeScript · Julia · R · C# · C++ · JavaScript (D3.js)
 
 **Backend & AI**  
-FastAPI · Django · LangChain · LangGraph · scikit-learn · PyTorch
+FastAPI · Django · LangChain · LangGraph · MCP · scikit-learn · PyTorch
 
 **Data & Storage**  
 PostgreSQL · SQL Server · MongoDB · Neo4j · Milvus · ChromaDB · DuckDB
 
 **Cloud & DevOps**  
 Docker · AWS · GCP · Linux · Git · CI/CD
+
+**Security**
+LLMGuard · Circuit Breakers
 
 ---
 
